@@ -9,9 +9,10 @@ public:
     TComplex(double _real);
     TComplex(double _real, double _image);
     TComplex(int _real);
+    TComplex(const TComplex&) = default;
+    TComplex& operator =(const TComplex& other) = default;
     TComplex operator -() const;
     TComplex operator +() const;
-    TComplex& operator =(const TComplex& other);
     TComplex& operator +=(const TComplex& other);
     TComplex& operator -=(const TComplex& other);
     TComplex& operator *=(const TComplex& other);

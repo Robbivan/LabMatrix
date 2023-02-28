@@ -16,12 +16,6 @@ TComplex::TComplex(int _real) : real(_real), image(0.) {
 
 }
 
-TComplex& TComplex::operator =(const TComplex& other) {
-    real = other.real;
-    image = other.image;
-    return *this;
-}
-
 TComplex TComplex::operator -() const {
     return TComplex(-real, -image);
 }

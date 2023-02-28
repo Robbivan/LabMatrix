@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 9.0.1, 2023-02-28T15:38:32. -->
+<!-- Written by QtCreator 9.0.1, 2023-03-01T00:21:23. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -69,6 +69,11 @@
     <value type="bool" key="AutoTest.Framework.QtTest">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="AutoTest.CheckStates">
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_complex.cpp:Complex">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_complex.cpp:diff">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_complex.cpp:division">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_complex.cpp:multiply">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_complex.cpp:sum">Checked</value>
     <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_determinant.cpp:Determinant1">Checked</value>
     <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_determinant.cpp:Determinant2">Checked</value>
     <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_determinant.cpp:Determinant_zero">Checked</value>
@@ -115,7 +120,7 @@
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QtProjectManager.QMakeBuildStep</value>
-      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">true</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
       <valuelist type="QVariantList" key="QtProjectManager.QMakeBuildStep.SelectedAbis"/>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
