@@ -6,14 +6,15 @@ using namespace testing;
 
 TEST(Matrix_det, Determinant1){
     //arrange
-    const number det_check = 61.5;
+    const number det_check =61.50000000000005;
     MatrixSquare matrix(3,{-5,2,3, 4,5,6, -7.5,8,9});
 
     //act
     number det_cur = matrix.determinant();
 
     //assert
-    ASSERT_DOUBLE_EQ(det_cur,det_check);
+    ASSERT_DOUBLE_EQ(det_cur.get_real(), det_check.get_real());
+    ASSERT_DOUBLE_EQ(det_cur.get_image(), det_check.get_image());
 }
 
 TEST(Matrix_det,Determinant2){
@@ -25,7 +26,8 @@ TEST(Matrix_det,Determinant2){
 
     number det_cur = matrix.determinant();
 
-    ASSERT_DOUBLE_EQ(det_cur,det_check);
+    ASSERT_DOUBLE_EQ(det_cur.get_real(), det_check.get_real());
+    ASSERT_DOUBLE_EQ(det_cur.get_image(), det_check.get_image());
 }
 
 TEST(Matrix_det,Determinant_zero){
@@ -34,7 +36,8 @@ TEST(Matrix_det,Determinant_zero){
 
     number det_cur = matrix.determinant();
 
-    ASSERT_DOUBLE_EQ(det_cur,det_check);
+    ASSERT_DOUBLE_EQ(det_cur.get_real(), det_check.get_real());
+    ASSERT_DOUBLE_EQ(det_cur.get_image(), det_check.get_image());
 }
 
 

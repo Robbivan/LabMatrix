@@ -8,6 +8,7 @@ CONFIG -= qt
 
 SOURCES += \
         main.cpp         \
+        tst_case_complex.cpp \
         tst_case_determinant.cpp \
         tst_case_rank.cpp \
         tst_case_t_matrix.cpp

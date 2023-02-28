@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 9.0.1, 2023-02-17T01:05:57. -->
+<!-- Written by QtCreator 9.0.1, 2023-02-28T15:38:32. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -69,8 +69,19 @@
     <value type="bool" key="AutoTest.Framework.QtTest">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="AutoTest.CheckStates">
-    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case.cpp:Case">Checked</value>
-    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case.cpp:Suite">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_determinant.cpp:Determinant1">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_determinant.cpp:Determinant2">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_determinant.cpp:Determinant_zero">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_determinant.cpp:Matrix_det">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_rank.cpp:Matrix_rank">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_rank.cpp:Rank1">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_rank.cpp:Rank2">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_rank.cpp:Rank3">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_rank.cpp:Rank4">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_rank.cpp:Rank_zero">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_t_matrix.cpp:Matrix_t">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_t_matrix.cpp:Transpose1">Checked</value>
+    <value type="Qt::CheckState" key="1@/Users/Ivan/QT_project/first_test/test_for_matrix/test_matrix/tst_case_t_matrix.cpp:Transpose_itself">Checked</value>
    </valuemap>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
    <value type="bool" key="AutoTest.UseGlobal">true</value>
@@ -104,7 +115,7 @@
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QtProjectManager.QMakeBuildStep</value>
-      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">true</value>
       <valuelist type="QVariantList" key="QtProjectManager.QMakeBuildStep.SelectedAbis"/>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
