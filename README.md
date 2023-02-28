@@ -1,2 +1,2 @@
 # LabMatrix
-Matrix C++ with QT and Google Tests
+Matrix complex numbers C++ with QT and Google Tests
